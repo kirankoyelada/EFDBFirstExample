@@ -1,0 +1,14 @@
+D:\Poc\rakesh\test\bin\Debug\netcoreapp2.2\test.deps.json
+D:\Poc\rakesh\test\bin\Debug\netcoreapp2.2\test.runtimeconfig.json
+D:\Poc\rakesh\test\bin\Debug\netcoreapp2.2\test.runtimeconfig.dev.json
+D:\Poc\rakesh\test\bin\Debug\netcoreapp2.2\test.dll
+D:\Poc\rakesh\test\bin\Debug\netcoreapp2.2\test.pdb
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.csprojAssemblyReference.cache
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.csproj.CoreCompileInputs.cache
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.RazorAssemblyInfo.cache
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.RazorAssemblyInfo.cs
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.AssemblyInfoInputs.cache
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.AssemblyInfo.cs
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.RazorTargetAssemblyInfo.cache
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.dll
+D:\Poc\rakesh\test\obj\Debug\netcoreapp2.2\test.pdb
