@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using test.data;
 using test.Models;
 namespace test.Controllers
 {
@@ -10,16 +11,16 @@ namespace test.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        devcustomapplogprocessordbContext db;
-        public ValuesController(devcustomapplogprocessordbContext _db)
+        IPostRepository repository;
+        public ValuesController(IPostRepository _repository)
         {
-            this.db=_db;
+            this.repository=_repository;
         }
         // GET api/values
         [HttpGet]
         public IActionResult Get()
         {
-            var values= db.DataLoader.Take(3);
+            var values=this.repository.getDataLoader();
             return Ok(values);
             //return new string[] { "value1", "value2" };
         }

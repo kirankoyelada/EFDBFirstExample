@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using test.data;
 using test.Models;
 
 namespace test
@@ -29,6 +30,7 @@ namespace test
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<devcustomapplogprocessordbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("BlogDBConnection")));
+            services.AddScoped<IPostRepository,PostRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
